@@ -15,8 +15,7 @@ I got the data from https://www.kaggle.com/datasets/mysarahmadbhat/pizza-place-s
 
 A zip file is also included in this repository.
 ### How I would solve the problem
-By analyzing KPIs like **Total Revenue**, **Average Order Value**, and **Total Orders**, I will import the data into Microsft SQL server management studio(SSMS) to clean and transform the data after which I will use Power BI to create a report that identifies daily and hourly trends. 
-The analysis will further break down sales by pizza category and size, highlighting the top 5 best-selling pizzas and the 5 worst sellers. Insights gained will help the business optimize inventory, target promotions, and refine the product mix to increase profitability.
+I will use Microsoft SQL Server Management Studio (SSMS) to clean and transform the data, focusing on KPIs such as **Total Revenue**, **Average Order Value**, and **Total Orders**. Afterwards, I’ll create a Power BI report to highlight daily and hourly sales trends. The report will break down pizza sales by category and size, showcasing the top 5 best and worst sellers. The insights from this analysis will help optimize inventory, focus promotions, and adjust the product mix to improve profitability.
 
 ### Steps I Took
 
@@ -142,3 +141,23 @@ ORDER BY total_pizzas_sold ASC;
 ```
 
 ### Data Visualization
+![Home](pizzarepo_page-0001.jpg)
+
+---
+
+![Top and Least](pizzarepo_page-0002.jpg)
+
+### Findings:
+- **Total Revenue:** $817,860
+- **Average Order Value:** $38.31
+- **Total Pizzas Sold:** 50,000 (21,000 orders, 2 pizzas/order)
+
+### Key Insights:
+- **Busiest Days:** Thursday (3,239 orders), Friday (3,538 orders), and Saturday (3,158 orders)
+- **Peak Hours:** 12-1 PM and 5-7 PM
+- **Top Pizza Category:** Classic (26.91% sales)
+- **Best-Selling Size:** Large (45.89%)
+- **Top 5 Best Sellers:** Classic Deluxe, Barbecue Chicken, Hawaiian, Pepperoni, Thai Chicken
+- **Bottom 5 Sellers:** Brie Carre, Mediterranean, Calabrese, Spinach Supreme, Soppressata
+
+These insights will guide strategic decisions regarding inventory, menu adjustments, and promotional activities to maximize profitability and customer satisfaction.
